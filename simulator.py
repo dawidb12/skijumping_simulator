@@ -4,13 +4,6 @@ import random
 from time import time, sleep
 from jumpers import jumpers_list
 
-#jumpers = {
-#    'Kamil Stoch': [5, 5, 4],
-#    'Dawid Kubacki': [4, 4, 4],
-#    'Piotr Żyła': [4, 4, 4],
-#    'Maciej Kot': [4, 4, 4],
-#}
-
 jumpers = jumpers_list
 standings = {}
 
