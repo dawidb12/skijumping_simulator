@@ -1,16 +1,5 @@
 #!/usr/bin/python3
 
-# Do zrobienia:
-# - losowanie odległości co pół metra
-# - najpierw losowanie skoczni, a potem puszczamy funkcje - DONE
-# - puść skoczków po kolei - DONE
-# - porządkowanie wyników - DONE
-# - losowanie not - DONE
-# - druga seria - DONE
-# - wybieranie skoczni
-# - punkty za wiatr
-# - współczynnik wybicie/lot/lądowanie-odległość/noty
-
 import random
 from time import time, sleep
 from jumpers import jumpers_list
