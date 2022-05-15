@@ -72,12 +72,12 @@ def all_points_calculation():
 
 if __name__ == '__main__':
     try:
+        print("Zawody odbędą się na skoczni K-" + str(int(skijump[0])))
         input("Aby rozpocząć kwalifikacje, naciśnij klawisz ENTER.")
 
         ### Kwalifikacje ###
         for current_jumper in jumpers.keys():
             print("\nNa belce siada teraz", current_jumper)
-            all_points_calculation()
             distance_out,total_points_out = all_points_calculation()
             mts_pts_list = []
             mts_pts_list.append(distance_out)
@@ -108,7 +108,6 @@ if __name__ == '__main__':
 
         for current_jumper in qual_standings.keys():
             print("\nNa belce siada teraz", current_jumper)
-            all_points_calculation()
             distance_out,total_points_out = all_points_calculation()
             mts_pts_list = []
             mts_pts_list.append(distance_out)
@@ -149,7 +148,6 @@ if __name__ == '__main__':
             first_jump = second_round_order.get(current_jumper)
             first_jump = first_jump[0]
             print("\nNa belce siada teraz", current_jumper, "Zawodnik ten w I serii otrzymał notę", points)
-            all_points_calculation()
             distance_out,total_points_out = all_points_calculation()
             total_points = total_points_out + points
             total_points = round(total_points, 1)
